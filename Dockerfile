@@ -14,7 +14,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose port 5000 for the Flask application
-EXPOSE 5000
+EXPOSE 4000
 
 # Command to run the Flask application
 CMD ["python3", "app.py"]
